@@ -1,0 +1,48 @@
+.guide-images {
+	position: relative;
+	height: 700px;
+	overflow: hidden;
+
+	.guide-image-1 {
+		position: absolute;
+		left: -7%;
+		top: 0;
+		background: url(img/tiequan.jpg) no-repeat;
+		background-size: cover;
+		width: 500px;
+		height: 700px;
+	}
+
+	.guide-image-2 {
+		position: absolute;
+		left: 14.35%;
+		top: 0;
+		background: url(img/dota.jpg) no-repeat;
+		background-size: cover;
+		width: 500px;
+		height: 700px;
+		-webkit-mask-image: -webkit-linear-gradient(-10deg, transparent 20%, white 31%);
+	}
+
+	.guide-image-3 {
+		position: absolute;
+		left: 41.67%;
+		top: 0;
+		background: url(img/cs.jpg) no-repeat;
+		background-size: cover;
+		width: 500px;
+		height: 700px;
+		-webkit-mask-image: -webkit-linear-gradient(-10deg, transparent 20%, white 31%);
+	}
+
+	.guide-image-4 {
+		position: absolute;
+		left: 58.98%;
+		top: 0;
+		background: url(img/war3.jpg) no-repeat;
+		background-size: cover;
+		width: 500px;
+		height: 700px;
+		-webkit-mask-image: -webkit-linear-gradient(-10deg, transparent 32%, white 41%);
+	}
+}

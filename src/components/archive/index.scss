@@ -1,0 +1,17 @@
+.bloglist {
+	.bloglist-item {
+		padding: 10px 0;
+
+		.bloglist-item-title {
+			display: inline-block;
+			width: 70%;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+		}
+
+		.bloglist-item-time {
+			float: right;
+		}
+	}
+}
